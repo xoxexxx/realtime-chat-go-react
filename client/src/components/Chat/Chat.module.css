@@ -1,0 +1,41 @@
+ul {
+    padding: 0;
+    margin: 0;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+}
+li {
+    list-style: none;
+    margin-top: 15px;
+}
+.chatBlock {
+    margin: 0 auto;
+    height: calc(100vh - 100px);
+}
+
+.sendMessage {
+    display: flex;
+    margin-top: 40px;
+    max-width: 600px;
+}
+.goImg {
+    width: 35px;
+    height: 40px;
+    margin-right: 20px;
+    transform: translate(0, 10px);
+}
+.inputMessage {
+    outline: 0;
+    padding: 0 10px;
+}
+.btnSend {
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
