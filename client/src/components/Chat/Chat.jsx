@@ -16,7 +16,6 @@ export const Chat = () => {
     setMessgae([...messages, JSON.parse(msg.data)]);
   });
 
-  let message = messages.map((msg, i) => <li key={i}>{msg.data}</li>);
   return (
     <div className={Styles.chatBlock}>
       <ul>
