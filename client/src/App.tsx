@@ -8,9 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="App">
         <Chat />
-      </div>
     </>
   );
 }
